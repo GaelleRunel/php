@@ -6,6 +6,7 @@ L'intérêt dest de pouvoir recréer le structurede la base à tout moment.
 
 Au niveau du PHP, on va créer quelques fichiers/dossiers:
 - config/database.php -> connexion à la base de données en PDO, sera inclus dans tous les fichiers PHP
+- config/config.php -> stocke toutes les varaibles globales
 - partials/header.php -> le header du site à inclure dans toutes les pages (Bootstrap CDN)
 - partials/footer.php -> le footer du site à inclure dans toutes les pages
 - index.php -> la page accueil du site
@@ -14,4 +15,7 @@ Au niveau du PHP, on va créer quelques fichiers/dossiers:
 
 
 Au niveau du front
-- assets/ -> dossier qui contiendra le CSS, le JS, les images,
+- assets/ -> dossier qui contiendra le CSS, le JS, les images
+- assets/css/style.css
+- assets/js/script.js
+- assets/img
