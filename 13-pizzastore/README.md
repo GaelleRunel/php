@@ -10,8 +10,8 @@ Au niveau du PHP, on va créer quelques fichiers/dossiers:
 - partials/footer.php -> le footer du site à inclure dans toutes les pages
 - index.php -> la page accueil du site
 - pizza_list.php -> lister toutes les pizzas de la BDD
-- pizza_single -> la page d'une seule pizza
+- pizza_single.php -> la page d'une seule pizza
 
 
-Au niveau du font
+Au niveau du front
 - assets/ -> dossier qui contiendra le CSS, le JS, les images,
