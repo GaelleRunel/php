@@ -19,3 +19,19 @@ Au niveau du front
 - assets/css/style.css
 - assets/js/script.js
 - assets/img
+
+## Ajout d'une pizza
+
+- créer la page pizza_add.php (permettra d'ajouter une pizza du cote administrateur)
+- ne pas oublier le header et le footer
+- ajouter un titre "ajouter une pizza"
+- ajouter un formulaire avec les champs suivants :
+    - Nom : saisie libre
+    - Prix : entre 5 et 19.99
+    - image : saisie libre
+    - description: saisie libre
+    - catégorie: select
+- faire le traiement du formulaire (vérifier les données)
+- modifier la BDD pour ajouter le champ description (TEXT) et la catégorie (VARCHAR ou ENUM) dans la table pizza
+- ajouter la pizza dans la base avec une requete quand on clique sur le bouton submit du formulaire
+
