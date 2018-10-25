@@ -6,7 +6,7 @@
 
     <main class="container">
      
-        <h1>Mon site Pizza Store</h1>
+        <h1 class="page-title"><i class="fab fa-hotjar"></i> Mon site Pizza Store</h1>
 
     </main>
 

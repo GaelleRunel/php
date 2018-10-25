@@ -1,4 +1,7 @@
 <?php 
+
+// inclusion du fichier functions.php
+require_once(__DIR__.'/../config/functions.php');
 // inclusion du fichier config
 require_once(__DIR__.'/../config/config.php'); 
 // inclusion du fichier database.php
@@ -26,6 +29,7 @@ require_once(__DIR__.'/../config/database.php');
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
 

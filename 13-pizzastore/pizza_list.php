@@ -13,7 +13,7 @@ $pizzas = $query->fetchAll();
 
     <main class="container">
      
-        <h1 class="page-title">Liste des pizzas</h1>
+        <h1 class="page-title"><i class="fab fa-hotjar"></i> Liste des pizzas</h1>
 
         <div class="row">
             <?php
@@ -23,13 +23,16 @@ $pizzas = $query->fetchAll();
                     <div class= "col-md-4">
                         <div class="card mb-4">
                             <div class="card-img-top-container position-relative">
-                                <img class="card-img-top card-img-top-zoom-effect" src="assets/img/pizza-reine.jpg" alt="<?php $pizza['name']; ?>"> 
-                                <div class="pastille">10€</div>
+                                <img class="card-img-top card-img-top-zoom-effect" src="assets/<?php echo $pizza['image']; ?>" alt="<?php $pizza['name']; ?>"> 
+                                <div class="pastille"><?= formatPrice ($pizza['price']); ?></div>
                             </div>
 
                             <div class="card-body">
                                <h4 class="card-title"><?php echo $pizza['name']; ?></h4>
-                               <a href="#" class="btn btn-danger">Commandez</a>
+                               <a href="<?="pizza_single.php?id=". $pizza['id'] ?>" class="btn btn-danger">Commandez</a>
+                                <!-- quand on clique sur le lien, on doit se rendre sur la page pizza-single.php
+                                    et l'URL doit ressembler à pizza single.php?id=ID de la pizza -->
+
                             </div>
                         </div>
                     </div>
