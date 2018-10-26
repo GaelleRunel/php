@@ -59,7 +59,10 @@ require_once(__DIR__.'/partials/header.php'); ?>
                 $errors['pizza-image'] = 'Ce type de fichier n\'est pas autorisé';
             }
 
-            // verifier la taille du fichier
+            // verifier la taille du fichier  -  'size' est en en octets  -  le 30 est défini en Ko
+            if($image['size']/1024 > 30){
+                $errors['image'] = 'L\'image est trop lourde';
+            }
 
 
             if(!isset($errors['pizza-image'])){
