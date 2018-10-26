@@ -31,7 +31,7 @@ Au niveau du front
     - image : saisie libre
     - description: saisie libre
     - catégorie: select
-- faire le traiement du formulaire (vérifier les données)
+- faire le traitement du formulaire (vérifier les données)
 - modifier la BDD pour ajouter le champ description (TEXT) et la catégorie (VARCHAR ou ENUM) dans la table pizza
 - ajouter la pizza dans la base avec une requete quand on clique sur le bouton submit du formulaire
 
